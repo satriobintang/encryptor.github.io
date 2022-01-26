@@ -45,9 +45,9 @@ This Flask extension provides two functions, which encrypt and decrypt data, del
 
 In order to work, encryptor project is based on these following modules:
 
-- flask
+- Flask
 
-To install Flask, simply::
+To install Flask, simply:
 
 ```bash
 > pip install Flask
