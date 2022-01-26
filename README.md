@@ -6,3 +6,6 @@
 •	set FLASK_ENV=development
 
 •	flask run
+
+
+Special thanks to @Bachittarjeet for encouraging
