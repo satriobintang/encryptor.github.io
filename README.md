@@ -76,15 +76,11 @@ you can download the repository and install manually by running:
 
 The algorithm used to implement this project is:
 
-* Base 32
-
-* Base 64
-
-* Caesar Cipher
-
-* Shared Key Secret
-
-* RSA
+- Base 32
+- Base 64
+- Caesar Cipher
+- Shared Key Secret
+- RSA
 
 ## Credits
 
