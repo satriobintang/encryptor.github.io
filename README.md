@@ -62,6 +62,16 @@ you can download the repository and install manually by running:
 > flask run
 ```
 
+## Steps To Run 
+
+- Clone or download the repository
+- Have [Python](https://www.python.org/downloads/) installed on your machine
+- Download [Flask](http://flask.pocoo.org/)
+- Start a local Flask web server
+  - In a terminal or command prompt, navigate to the downloaded folder and run `python server.py`. (The flask docs have an alternate way of doing this.) 
+  - In a browser, go to the URL indicated by `Running on http://XXX.X.X.X:YYYY/` 
+- Enjoy
+
 ## Algorithms
 
 The algorithm used to implement this project is:
