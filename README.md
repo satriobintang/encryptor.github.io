@@ -1,5 +1,6 @@
-# Dokumentasi final project
-***
+
+# Dokumentasi Final Project Pemrograman Python dan Pemrograman Web
+
 ### Deskripsi singkat final project
 Kriptografi merupakan salah satu hal penting yang dibutuhkan ketika masuk ke dunia
 cyber security. Dengan adanya kriptografi, maka ketika kita mengirim sebuah pesan rahasia
@@ -25,19 +26,60 @@ implemetasikan ke dalam web.
 2. Rangga Wahyu Setiawan (20.83.0548)
 3. Satrio Bintang Pamungkas (20.83.0552)
 
+<br/>
+<br/>
 
+# Flask-Encryptor
 
+A Flask extension based on `simple-crypt-using-flask-and-python` which allows simple and secure encryption and decryption for Python.
 
-***
+## Overview
 
-## CARA UNTUK MENGAKTIFKAN DAN MENGGUNAKAN
+This Flask extension provides two functions, which encrypt and decrypt data, delegating all the hard work to the [encryptor](https://github.com/satriobintang/encryptor.github.io).
 
-•	set FLASK_APP=server.py
+## Dependencies
 
-•	set FLASK_ENV=development
+ - Flask 2.0.1 or greater
 
-•	flask run
+## Requirements and installation
+
+In order to work, encryptor project is based on these following modules:
+
+- flask
+
+To install Flask, simply::
+
+```bash
+> pip install Flask
+```
+
+## Installation
+you can download the repository and install manually by running:
+
+```bash
+> set FLASK_APP=server.py
+> set FLASK_ENV=development
+> flask run
+```
+
+## Algorithms
+
+The algorithm used to implement this project is:
+
+* Base 32
+
+* Base 64
+
+* Caesar Cipher
+
+* Shared Key Secret
+
+* RSA
+
+## Credits
+
+Most of the work has been completed thanks to [Alt5chm3rz](https://github.com/satriobintang), [Andi], and [Rangga]. Focus of this project is to 'develop' it.
 
 >Special thanks to @Bachittarjeet for encouraging
 
-### I hope this project can be useful for many people.   -Alt5chm3rz
+>I hope this project can be useful for many people. -Alt5chm3rz
