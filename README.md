@@ -84,7 +84,7 @@ The algorithm used to implement this project is:
 
 ## Credits
 
-Most of the work has been completed thanks to [Alt5chm3rz](https://github.com/satriobintang)(SatrioBintang), Andi, and Rangga. Focus of this project is to 'develop' it.
+Most of the work has been completed thanks to [Alt5chm3rz](https://github.com/satriobintang) (SatrioBintang), Andi, and Rangga. Focus of this project is to 'develop' it.
 
 >Special thanks to @Bachittarjeet for encouraging
 
