@@ -17,7 +17,7 @@ untuk menyembunyikan data penting. Jadi teknik encoding dan decoding ini bertuju
 sebagai cryptography.
 
 ### Progres ide final project
-Dari target yang diinginkan, progress final project ini sudah mencapai 90%, karena dari
+Dari target yang diinginkan, progress final project ini sudah mencapai 95%, karena dari
 sekian banyak algoritma yang kelompok kami buat hanya beberapa saja yang bisa kami
 implemetasikan ke dalam web.
 
