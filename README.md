@@ -20,6 +20,14 @@ Dari target yang diinginkan, progress final project ini sudah mencapai 90%, kare
 sekian banyak algoritma yang kelompok kami buat hanya beberapa saja yang bisa kami
 implemetasikan ke dalam web.
 
+### Nama Anggota Kelompok
+1. Andi Muhammad Ichsan Jalaluddin (20.83.0545)
+2. Rangga Wahyu Setiawan (20.83.0548)
+3. Satrio Bintang Pamungkas (20.83.0552)
+
+
+
+
 ***
 
 ## CARA UNTUK MENGAKTIFKAN DAN MENGGUNAKAN
