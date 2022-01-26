@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block judul %} RSA {% endblock %}
+
+{% block body %}    
+    <div class="container" style="margin-bottom: 30.7%; margin-top: 5%;">
+        <!-- Jumbotron -->
+        <h1>Public Key Encryption</h1>
+        <p>Public Key Encryption adalah enkripsi yang menggunakan kunci publik penerima untuk mengenkripsi pesan yang dikirim.</p>
+        <p>Pesan tersebut tidak bisa didekripsi selain oleh pemilik kunci pribadi (penerima).</p>
+
+        <a href="/public-key/encrypt" class="btn btn-warning">Enkripsi</a>
+        <a href="/public-key/decrypt" class="btn btn-danger">Deskripsi</a>
+        <a href="/public-key/generate-keys" class="btn btn-success">Generate Key</a>
+    </div>    
+{% endblock %}

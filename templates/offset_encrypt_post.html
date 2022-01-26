@@ -1,0 +1,39 @@
+{% extends "layout.html" %}
+
+{% block judul %} Caesar Cipher Encryption {% endblock %}
+
+{% block body %}      
+    <div class="container" style="margin-bottom: 17.3%; margin-top: 5%;">
+        <!-- Jumbotron -->
+        <h1>CAESAR CHIPER</h1>
+        <p>Caesar Chiper adalah teknik kriptografi yang dilakukan dengan mensubtitusi setiap abjad dari pesan yang akan dienkripsi melalui pergeseran</p>
+        <p>susunan sebagai kuncinya.</p>
+
+        <a href="/offset/encrypt" class="btn btn-warning">Enkripsi</a>
+        <a href="/offset/decrypt" class="btn btn-danger">Deskripsi</a>
+        
+        <!-- Tables -->
+            <div class="row tall-row-first">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="form-group">
+                            <label for="textArea" class="col-lg-2 control-label">Encrypted Message</label>
+                            <div class="col-lg-10">
+                                <textarea class="form-control" rows="3" id="textArea">{{ encrypted_message }}</textarea>  
+                                <span class="help-block"></span>                  
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="textArea" class="col-lg-2 control-label">Original Plaintext Message</label>
+                            <div class="col-lg-10">
+                                <textarea class="form-control" rows="3" id="textArea">{{ message }}</textarea>  
+                                <span class="help-block"></span>                  
+                            </div>
+                        </div>                    
+                    </div>                                         
+                </div>
+            </div>
+        </div>
+    </div>        
+{% endblock %}

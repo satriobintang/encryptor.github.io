@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block judul %} Shared Key {% endblock %}
+
+{% block body %}   
+    <div class="container" style="margin-bottom: 30.7%; margin-top: 5%;">
+        <!-- Jumbotron -->
+        <h1>PRE SHARED KEY</h1>
+        <p>Pre Shared Key adalah algoritma yang kuncinya dibagikan antara kedua pihak menggunakan beberapa saluran aman.</p>
+        <p>Kunci Pre Shared Key digunakan untuk melakukan enkripsi dan mendeskripsi pesan.</p>
+
+        <a href="/shared-key/encrypt" class="btn btn-warning">Enkripsi</a>
+        <a href="/shared-key/decrypt" class="btn btn-danger">Deskripsi</a>
+    </div>        
+{% endblock %}

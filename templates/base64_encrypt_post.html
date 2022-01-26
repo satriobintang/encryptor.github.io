@@ -1,0 +1,39 @@
+{% extends "layout.html" %}
+
+{% block judul %} Base 64 Encryption {% endblock %}
+
+{% block body %}      
+    <div class="container" style="margin-bottom: 17.3%; margin-top: 5%;">
+        <!-- Jumbotron -->
+        <h1>BASE 64</h1>
+        <p>Base64 mengeset 64-karakter yang terdiri dari huruf A sampai Z dan angka 2 hingga 7. Base64 tidak hanya digunakan untuk menyandikan data biner,</p>
+        <p>tetapi Base64 juga dapat menyandikan teks biner seperti ASCII</p>
+        
+        <a href="/base64/encrypt" class="btn btn-warning">Enkripsi</a>
+        <a href="/base64/decrypt" class="btn btn-danger">Deskripsi</a>
+
+        <!-- Tables -->
+            <div class="row tall-row-first">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="form-group">
+                            <label for="textArea" class="col-lg-2 control-label">Encrypted Message</label>
+                            <div class="col-lg-10">
+                                <textarea class="form-control" rows="3" id="textArea">{{ encrypted_message }}</textarea>  
+                                <span class="help-block"></span>                  
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="textArea" class="col-lg-2 control-label">Original Plaintext Message</label>
+                            <div class="col-lg-10">
+                                <textarea class="form-control" rows="3" id="textArea">{{ message }}</textarea>  
+                                <span class="help-block"></span>                  
+                            </div>
+                        </div>                    
+                    </div>                                         
+                </div>
+            </div>
+        </div>
+    </div>        
+{% endblock %}

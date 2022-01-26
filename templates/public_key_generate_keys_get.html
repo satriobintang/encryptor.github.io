@@ -1,0 +1,77 @@
+{% extends "layout.html" %}
+
+{% block judul %} RSA Generate Key {% endblock %}
+
+{% block body %}       
+    <div class="container" style="margin-bottom: 20%; margin-top: 5%;">
+        <!-- Jumbotron -->
+        <h1>Public Key Encryption</h1>
+        <p>Public Key Encryption adalah enkripsi yang menggunakan kunci publik penerima untuk mengenkripsi pesan yang dikirim.</p>
+        <p>Pesan tersebut tidak bisa didekripsi selain oleh pemilik kunci pribadi (penerima).</p>
+
+        <a href="/public-key/encrypt" class="btn btn-warning">Enkripsi</a>
+        <a href="/public-key/decrypt" class="btn btn-danger">Deskripsi</a>
+        <a href="/public-key/generate-keys" class="btn btn-success">Generate Key</a>
+
+           <!-- Tables -->
+           <div class="row tall-row-first">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="form-group">
+                      <div class="col-lg-10">
+                        <div id="encryption">
+                          <div id="generate-keys">
+                            <div id="choose-primes" class="generate-section">
+                              <h3>
+                                Choose two small prime numbers:
+                              </h3>                      
+                              <ul id="primes-under-30-list" class="number-list">
+                                {% for prime in primes %}
+                                  <li class="prime-under-30">{{ prime }}</li>
+                                {% endfor %}
+                              </ul>                      
+                              <button id="submit-primes" class="btn btn-success">
+                                Submit Primes!
+                              </button>                      
+                            </div>
+                              
+                            <div id="choose-coprime" class="generate-section">
+                              <h3>
+                                Choose one of the coprimes of <span class="prime1-span"></span> and <span class="prime2-span"></span>:
+                              </h3>                      
+                              <ul id="coprime-list" class="number-list">
+                              </ul>                      
+                              <button id="submit-coprime" class="btn btn-success">
+                                Submit Coprime!
+                              </button>                         
+                            </div>
+                              
+                            <div id="keys" class="generate-section">
+                              <h3>
+                                Keys:
+                              </h3>
+                              <p>
+                                <strong>Prime 1:</strong> <span class="prime1-span"></span>
+                              </p>
+                              <p>
+                                <strong>Prime 2:</strong> <span class="prime2-span"></span>
+                              </p>
+                              <p>
+                                <strong>Coprime:</strong> <span class="coprime-span"></span>
+                              </p>
+                              <h3>
+                                <strong>Public Keys:</strong> <span class="public-keys-span"></span>
+                              </h3>
+                              <h3>
+                                <strong>Private Keys:</strong> <span class="private-keys-span"></span>
+                              </h3>                      
+                            </div>                            
+                          </div>
+                        </div>                  
+                      </div>                                      
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </div>        
+{% endblock %}

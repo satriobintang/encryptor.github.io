@@ -1,0 +1,48 @@
+{% extends "layout.html" %}
+
+{% block judul %} RSA Decryption {% endblock %}
+
+{% block body %}     
+    <div class="container" style="margin-bottom: 15.3%; margin-top: 5%;">
+        <!-- Jumbotron -->
+        <h1>Public Key Encryption</h1>
+        <p>Public Key Encryption adalah enkripsi yang menggunakan kunci publik penerima untuk mengenkripsi pesan yang dikirim.</p>
+        <p>Pesan tersebut tidak bisa didekripsi selain oleh pemilik kunci pribadi (penerima).</p>
+
+        <a href="/public-key/encrypt" class="btn btn-warning">Enkripsi</a>
+        <a href="/public-key/decrypt" class="btn btn-danger">Deskripsi</a>
+        <a href="/public-key/generate-keys" class="btn btn-success">Generate Key</a>
+        
+        <!-- Tables -->
+        <div class="row tall-row-first">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="form-group">
+                        <form action="/public-key/decrypt" method="post">
+                            <label for="textArea" class="col-lg-2 control-label">Message to Decrypt</label>
+                            <div class="col-lg-10">
+                                <textarea class="form-control" rows="3" id="textArea" name="message"></textarea>  
+                                <span class="help-block"></span>                  
+                            </div>
+                            
+                            <label for="selectawd" class="col-lg-2 control-label" type="number">Private Key 1</label>
+                            <div class="col-lg-10">
+                                <input class="form-control" type="number" id="decrypt-private-key-1" name="private-key-1">
+                            </div>
+
+                            <label for="selectawd" class="col-lg-2 control-label" type="number">Private Key 2</label>
+                            <div class="col-lg-10">
+                                <span class="help-block"></span>
+                                <input class="form-control" type="number" id="decrypt-private-key-2" name="private-key-2">
+                            </div>
+
+                            <div class="col-lg-10 col-lg-offset-2">
+                                <button value="submit" class="btn btn-danger" style="margin-top: 20px;">Decryption</button>
+                            </div>
+                        </form>                      
+                    </div>
+                </div>                                         
+            </div>
+        </div>
+    </div>        
+{% endblock %}
