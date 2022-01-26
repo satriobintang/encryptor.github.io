@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>About Us Page</title>
+    <title>{% block judul %} {% endblock %} Page</title>
     <link rel="stylesheet" href="/encryptor.css">
 </head>
+
 <body>
+
     <nav class="navbar navbar-default navbar-static-top">
         <div class="container">
             <div class="navbar-header">
@@ -44,20 +46,10 @@
             </div>
         </div>
     </nav>
-    
-    <div class="container">
-        <!-- Jumbotron -->
-        <div class="jumbotron" style="margin-top: 5%;">
-            <h1>About Us</h1>
-            <p style="margin-bottom: 26%;">We are a collection of students who are passionate about cyber security. 
-                We are currently studying at Amikom University Yogyakarta, Indonesia. This project was created for our serious 
-                attention regarding the number of wiretapping and data leaks that are very detrimental to many parties. Our 
-                concept of making this web page like being in the world of cyberpunk is because we hope that apart from making 
-                it easier for users, another hope is that it can attract the younger generation to be more aware of the security 
-                of personal data. We hope that this project can provide information regarding real cyber threats to all people 
-                and this tool can be used to protect the important data that you have.<a href="https://github.com/satriobintang" target="_blank">-Alt5chm3rz</a></p>
-        </div>
 
+        {% block body %}{% endblock %}
+        
+    <div class="footer-parent">
         <div class="footer">
             <div class="row tall-row">
                 <div class="col-md-12">
@@ -79,6 +71,6 @@
         });
     });
     </script>
-
+    <script src="/script.js"></script>
 </body>
 </html>
