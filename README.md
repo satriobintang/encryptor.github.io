@@ -82,6 +82,34 @@ The algorithm used to implement this project is:
 - Shared Key Secret
 - RSA
 
+## Project Documentation
+
+The image below is an example of a shared key algorithm, you can encrypt or decrypt by pressing the yellow (encryption) or red (decryption) button.
+In this experiment using plaintext "Aku selalu merindukannya" and using a combination of 3 keys "x, y, and z":
+<p align="center">
+    <img src="image/README/enkripsi-shared-key.png" width="700" />
+    <br>
+ </p>
+  
+The image below is the result of encryption using a shared key algorithm. In the picture, it can be seen that plaintext has become ciphertex.
+ <p align="center">
+    <img src="image/README/enkripsi-shared-key hasil.png" width="700" />
+    <br>
+ </p>
+
+In this experiment, decryption uses the key that was previously used to encrypt. The key is to use a combination of 3 letters “x, y, and z”.
+  <p align="center">
+    <img src="image/README/deskripsi-shared-key.png" width="700" />
+    <br>
+ </p>
+ 
+ The image below is the result of a description using a combination of 3 letters “x, y, and z”. In the picture it can be seen that the ciphertex has become plaintext.
+  <p align="center">
+    <img src="image/README/deskripsi-shared-key hasil.png" width="700" />
+    <br>
+ </p>
+
+
 ## Credits
 
 Most of the work has been completed thanks to [Alt5chm3rz](https://github.com/satriobintang) (SatrioBintang), Andi, and Rangga. Focus of this project is to 'develop' it.
